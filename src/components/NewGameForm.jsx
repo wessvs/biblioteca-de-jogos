@@ -23,6 +23,6 @@ export default function NewGameForm({ addGame }) {
             <TextInput id='title' value={title} setValue={setTitle} label="titulo" />
             <TextInput id='cover' value={cover} setValue={setCover} label="capa" />
             <button type="submit">Adicionar a biblioteca</button>
-      </form>
+        </form>
     )
 }
